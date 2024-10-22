@@ -10,7 +10,7 @@ var schooling = 18
 print (schooling)
 
 //:  Does the above code compile? Why is this different than trying to update a constant? Print your explanation to the console using the `print` function.
-
+print("Because a variable can be changed but a let constant can't")
 
 /*:
 [Previous](@previous)  |  page 3 of 10  |  [Next: App Exercise - Step Count](@next)
