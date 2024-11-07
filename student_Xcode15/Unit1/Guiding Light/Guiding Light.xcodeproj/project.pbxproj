@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B0AC0F2CDC2A2000EDB166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC0E2CDC2A2000EDB166 /* AppDelegate.swift */; };
+		D4B0AC112CDC2A2000EDB166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC102CDC2A2000EDB166 /* SceneDelegate.swift */; };
+		D4B0AC132CDC2A2000EDB166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC122CDC2A2000EDB166 /* ViewController.swift */; };
+		D4B0AC162CDC2A2000EDB166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B0AC142CDC2A2000EDB166 /* Main.storyboard */; };
+		D4B0AC192CDC2A2000EDB166 /* Guiding_Light.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC172CDC2A2000EDB166 /* Guiding_Light.xcdatamodeld */; };
+		D4B0AC1B2CDC2A4200EDB166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B0AC1A2CDC2A4200EDB166 /* Assets.xcassets */; };
+		D4B0AC1E2CDC2A4200EDB166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B0AC1C2CDC2A4200EDB166 /* LaunchScreen.storyboard */; };
+		D4B0AC292CDC2A4400EDB166 /* Guiding_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC282CDC2A4400EDB166 /* Guiding_LightTests.swift */; };
+		D4B0AC332CDC2A4400EDB166 /* Guiding_LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC322CDC2A4400EDB166 /* Guiding_LightUITests.swift */; };
+		D4B0AC352CDC2A4400EDB166 /* Guiding_LightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0AC342CDC2A4400EDB166 /* Guiding_LightUITestsLaunchTests.swift */; };
+		D4B0AC412CDC2CD000EDB166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B0AC142CDC2A2000EDB166 /* Main.storyboard */; };
+		D4B0AC422CDC2CD100EDB166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B0AC142CDC2A2000EDB166 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B0AC252CDC2A4400EDB166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0AC032CDC2A1F00EDB166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B0AC0A2CDC2A2000EDB166;
+			remoteInfo = "Guiding Light";
+		};
+		D4B0AC2F2CDC2A4400EDB166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B0AC032CDC2A1F00EDB166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B0AC0A2CDC2A2000EDB166;
+			remoteInfo = "Guiding Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4B0AC0B2CDC2A2000EDB166 /* Guiding Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guiding Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B0AC0E2CDC2A2000EDB166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B0AC102CDC2A2000EDB166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4B0AC122CDC2A2000EDB166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4B0AC152CDC2A2000EDB166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4B0AC182CDC2A2000EDB166 /* Guiding_Light.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guiding_Light.xcdatamodel; sourceTree = "<group>"; };
+		D4B0AC1A2CDC2A4200EDB166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B0AC1D2CDC2A4200EDB166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4B0AC1F2CDC2A4200EDB166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B0AC242CDC2A4400EDB166 /* Guiding LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guiding LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B0AC282CDC2A4400EDB166 /* Guiding_LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guiding_LightTests.swift; sourceTree = "<group>"; };
+		D4B0AC2E2CDC2A4400EDB166 /* Guiding LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guiding LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B0AC322CDC2A4400EDB166 /* Guiding_LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guiding_LightUITests.swift; sourceTree = "<group>"; };
+		D4B0AC342CDC2A4400EDB166 /* Guiding_LightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guiding_LightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B0AC082CDC2A2000EDB166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC212CDC2A4400EDB166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC2B2CDC2A4400EDB166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B0AC022CDC2A1F00EDB166 = {
+			isa = PBXGroup;
+			children = (
+				D4B0AC0D2CDC2A2000EDB166 /* Guiding Light */,
+				D4B0AC272CDC2A4400EDB166 /* Guiding LightTests */,
+				D4B0AC312CDC2A4400EDB166 /* Guiding LightUITests */,
+				D4B0AC0C2CDC2A2000EDB166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B0AC0C2CDC2A2000EDB166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0AC0B2CDC2A2000EDB166 /* Guiding Light.app */,
+				D4B0AC242CDC2A4400EDB166 /* Guiding LightTests.xctest */,
+				D4B0AC2E2CDC2A4400EDB166 /* Guiding LightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B0AC0D2CDC2A2000EDB166 /* Guiding Light */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0AC0E2CDC2A2000EDB166 /* AppDelegate.swift */,
+				D4B0AC102CDC2A2000EDB166 /* SceneDelegate.swift */,
+				D4B0AC122CDC2A2000EDB166 /* ViewController.swift */,
+				D4B0AC142CDC2A2000EDB166 /* Main.storyboard */,
+				D4B0AC1A2CDC2A4200EDB166 /* Assets.xcassets */,
+				D4B0AC1C2CDC2A4200EDB166 /* LaunchScreen.storyboard */,
+				D4B0AC1F2CDC2A4200EDB166 /* Info.plist */,
+				D4B0AC172CDC2A2000EDB166 /* Guiding_Light.xcdatamodeld */,
+			);
+			path = "Guiding Light";
+			sourceTree = "<group>";
+		};
+		D4B0AC272CDC2A4400EDB166 /* Guiding LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0AC282CDC2A4400EDB166 /* Guiding_LightTests.swift */,
+			);
+			path = "Guiding LightTests";
+			sourceTree = "<group>";
+		};
+		D4B0AC312CDC2A4400EDB166 /* Guiding LightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0AC322CDC2A4400EDB166 /* Guiding_LightUITests.swift */,
+				D4B0AC342CDC2A4400EDB166 /* Guiding_LightUITestsLaunchTests.swift */,
+			);
+			path = "Guiding LightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B0AC0A2CDC2A2000EDB166 /* Guiding Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B0AC382CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding Light" */;
+			buildPhases = (
+				D4B0AC072CDC2A2000EDB166 /* Sources */,
+				D4B0AC082CDC2A2000EDB166 /* Frameworks */,
+				D4B0AC092CDC2A2000EDB166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guiding Light";
+			productName = "Guiding Light";
+			productReference = D4B0AC0B2CDC2A2000EDB166 /* Guiding Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B0AC232CDC2A4400EDB166 /* Guiding LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B0AC3B2CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding LightTests" */;
+			buildPhases = (
+				D4B0AC202CDC2A4400EDB166 /* Sources */,
+				D4B0AC212CDC2A4400EDB166 /* Frameworks */,
+				D4B0AC222CDC2A4400EDB166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B0AC262CDC2A4400EDB166 /* PBXTargetDependency */,
+			);
+			name = "Guiding LightTests";
+			productName = "Guiding LightTests";
+			productReference = D4B0AC242CDC2A4400EDB166 /* Guiding LightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4B0AC2D2CDC2A4400EDB166 /* Guiding LightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B0AC3E2CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding LightUITests" */;
+			buildPhases = (
+				D4B0AC2A2CDC2A4400EDB166 /* Sources */,
+				D4B0AC2B2CDC2A4400EDB166 /* Frameworks */,
+				D4B0AC2C2CDC2A4400EDB166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B0AC302CDC2A4400EDB166 /* PBXTargetDependency */,
+			);
+			name = "Guiding LightUITests";
+			productName = "Guiding LightUITests";
+			productReference = D4B0AC2E2CDC2A4400EDB166 /* Guiding LightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B0AC032CDC2A1F00EDB166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D4B0AC0A2CDC2A2000EDB166 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D4B0AC232CDC2A4400EDB166 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4B0AC0A2CDC2A2000EDB166;
+					};
+					D4B0AC2D2CDC2A4400EDB166 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4B0AC0A2CDC2A2000EDB166;
+					};
+				};
+			};
+			buildConfigurationList = D4B0AC062CDC2A1F00EDB166 /* Build configuration list for PBXProject "Guiding Light" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B0AC022CDC2A1F00EDB166;
+			productRefGroup = D4B0AC0C2CDC2A2000EDB166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B0AC0A2CDC2A2000EDB166 /* Guiding Light */,
+				D4B0AC232CDC2A4400EDB166 /* Guiding LightTests */,
+				D4B0AC2D2CDC2A4400EDB166 /* Guiding LightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B0AC092CDC2A2000EDB166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC1E2CDC2A4200EDB166 /* LaunchScreen.storyboard in Resources */,
+				D4B0AC1B2CDC2A4200EDB166 /* Assets.xcassets in Resources */,
+				D4B0AC162CDC2A2000EDB166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC222CDC2A4400EDB166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC412CDC2CD000EDB166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC2C2CDC2A4400EDB166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC422CDC2CD100EDB166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B0AC072CDC2A2000EDB166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC192CDC2A2000EDB166 /* Guiding_Light.xcdatamodeld in Sources */,
+				D4B0AC132CDC2A2000EDB166 /* ViewController.swift in Sources */,
+				D4B0AC0F2CDC2A2000EDB166 /* AppDelegate.swift in Sources */,
+				D4B0AC112CDC2A2000EDB166 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC202CDC2A4400EDB166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC292CDC2A4400EDB166 /* Guiding_LightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0AC2A2CDC2A4400EDB166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B0AC332CDC2A4400EDB166 /* Guiding_LightUITests.swift in Sources */,
+				D4B0AC352CDC2A4400EDB166 /* Guiding_LightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B0AC262CDC2A4400EDB166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B0AC0A2CDC2A2000EDB166 /* Guiding Light */;
+			targetProxy = D4B0AC252CDC2A4400EDB166 /* PBXContainerItemProxy */;
+		};
+		D4B0AC302CDC2A4400EDB166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B0AC0A2CDC2A2000EDB166 /* Guiding Light */;
+			targetProxy = D4B0AC2F2CDC2A4400EDB166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4B0AC142CDC2A2000EDB166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B0AC152CDC2A2000EDB166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B0AC1C2CDC2A4200EDB166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B0AC1D2CDC2A4200EDB166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4B0AC362CDC2A4400EDB166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B0AC372CDC2A4400EDB166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B0AC392CDC2A4400EDB166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guiding Light/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B0AC3A2CDC2A4400EDB166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guiding Light/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4B0AC3C2CDC2A4400EDB166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guiding Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guiding Light";
+			};
+			name = Debug;
+		};
+		D4B0AC3D2CDC2A4400EDB166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guiding Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guiding Light";
+			};
+			name = Release;
+		};
+		D4B0AC3F2CDC2A4400EDB166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guiding Light";
+			};
+			name = Debug;
+		};
+		D4B0AC402CDC2A4400EDB166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TM598ZPPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Light.Guiding-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guiding Light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B0AC062CDC2A1F00EDB166 /* Build configuration list for PBXProject "Guiding Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B0AC362CDC2A4400EDB166 /* Debug */,
+				D4B0AC372CDC2A4400EDB166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B0AC382CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B0AC392CDC2A4400EDB166 /* Debug */,
+				D4B0AC3A2CDC2A4400EDB166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B0AC3B2CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B0AC3C2CDC2A4400EDB166 /* Debug */,
+				D4B0AC3D2CDC2A4400EDB166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B0AC3E2CDC2A4400EDB166 /* Build configuration list for PBXNativeTarget "Guiding LightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B0AC3F2CDC2A4400EDB166 /* Debug */,
+				D4B0AC402CDC2A4400EDB166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4B0AC172CDC2A2000EDB166 /* Guiding_Light.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4B0AC182CDC2A2000EDB166 /* Guiding_Light.xcdatamodel */,
+			);
+			currentVersion = D4B0AC182CDC2A2000EDB166 /* Guiding_Light.xcdatamodel */;
+			path = Guiding_Light.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4B0AC032CDC2A1F00EDB166 /* Project object */;
+}
